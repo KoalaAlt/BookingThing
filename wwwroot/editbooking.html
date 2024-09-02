@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input[type="text"], input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+            button:hover {
+                background-color: #218838;
+            }
+
+        .back-button {
+            background-color: #007bff;
+        }
+
+            .back-button:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <h1>Edit Booking</h1>
+
+    <button type="button" class="back-button" id="backButton">Go Back</button>
+
+    <form id="editBookingForm">
+        <label for="facilityDescription">Facility Description:</label>
+        <input type="text" id="facilityDescription" name="facilityDescription" required>
+
+        <label for="bookingDateFrom">Booking Date From:</label>
+        <input type="date" id="bookingDateFrom" name="bookingDateFrom" required>
+
+        <label for="bookingDateTo">Booking Date To:</label>
+        <input type="date" id="bookingDateTo" name="bookingDateTo" required>
+
+        <label for="bookingStatus">Status:</label>
+        <input type="text" id="bookingStatus" name="bookingStatus" required>
+
+        <button type="submit">Save Changes</button>
+    </form>
+
+    <!-- Include the external JavaScript file -->
+    <script src="editbooking.js"></script>
+</body>
+</html>

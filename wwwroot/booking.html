@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        #historyButton {
+            margin-left: 10px;
+        }
+
+        #searchInput {
+            padding: 8px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #sortBySelect {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #historyDropdown {
+            display: none;
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ccc;
+            width: 100%;
+            max-height: 200px;
+            overflow-y: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 400px;
+            text-align: center;
+        }
+
+            .popup button {
+                margin-top: 10px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Booking Management</h1>
+
+    <div style="display: flex; justify-content: flex-end; margin-bottom: 20px;">
+        <button id="logoutButton">Logout</button>
+        <button id="createBookingButton">Create New Booking</button>
+        <button id="historyButton">History</button>
+    </div>
+
+    <h2>Search and Sort Bookings</h2>
+    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <select id="sortBySelect">
+            <option value="facilitydescription">Facility Description</option>
+            <option value="bookingdatefrom">Booking Date From</option>
+            <option value="bookingdateto">Booking Date To</option>
+            <option value="bookingstatus">Booking Status</option>
+            <option value="bookedby">Booked By</option>
+        </select>
+        <button id="searchButton">Search</button>
+    </div>
+
+    <h2>Existing Bookings</h2>
+    <table id="bookingsTable" border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Facility Description</th>
+                <th>Booking Date From</th>
+                <th>Booking Date To</th>
+                <th>Status</th>
+                <th>Booked By</th>
+                <th>Edit</th>
+                <th>Cancel</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div id="historyDropdown">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Facility Description</th>
+                    <th>Booking Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="historyTableBody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="booking.js"></script>
+</body>
+</html>

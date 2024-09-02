@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\booking.html",
+      "PackagePath": "staticwebassets\\booking.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\booking.js",
+      "PackagePath": "staticwebassets\\booking.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\bringbackbooking.html",
+      "PackagePath": "staticwebassets\\bringbackbooking.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\bringbackbooking.js",
+      "PackagePath": "staticwebassets\\bringbackbooking.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\cancelbooking.html",
+      "PackagePath": "staticwebassets\\cancelbooking.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\cancelbooking.js",
+      "PackagePath": "staticwebassets\\cancelbooking.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\createbooking.html",
+      "PackagePath": "staticwebassets\\createbooking.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\deletebooking.html",
+      "PackagePath": "staticwebassets\\deletebooking.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\deletebooking.js",
+      "PackagePath": "staticwebassets\\deletebooking.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\editbooking.html",
+      "PackagePath": "staticwebassets\\editbooking.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\editbooking.js",
+      "PackagePath": "staticwebassets\\editbooking.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\ESD\\ZacharyHeng_Project\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ZacharyHeng_Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ZacharyHeng_Project.props",
+      "PackagePath": "build\\ZacharyHeng_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ZacharyHeng_Project.props",
+      "PackagePath": "buildMultiTargeting\\ZacharyHeng_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ZacharyHeng_Project.props",
+      "PackagePath": "buildTransitive\\ZacharyHeng_Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

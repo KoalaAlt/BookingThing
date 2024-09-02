@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\user\ESD</_PublishTargetUrl>
+    <History>True|2024-08-23T09:01:40.4786523Z;True|2024-08-23T10:02:40.7027958+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DbConn">
+      <Value>Server=LAPTOP-MVS94JS4\SQLEXPRESS%3bDatabase=ZacharyHeng_DB%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
